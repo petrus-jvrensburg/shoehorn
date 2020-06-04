@@ -27,8 +27,8 @@ defmodule Shoehorn.MixProject do
   defp deps do
     [
       {:distillery, "~> 2.1", optional: true, runtime: false},
-      {:dialyxir, "~> 0.5", only: [:dev, :test], runtime: false},
-      {:ex_doc, "~> 0.18", only: [:dev, :test], runtime: false}
+      {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false},
+      {:ex_doc, "~> 0.22", only: [:dev, :test], runtime: false}
     ]
   end
 
